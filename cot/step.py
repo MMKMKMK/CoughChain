@@ -83,7 +83,7 @@ def detect_cough_in_folder(root_dir, output_file="cough_omni-latest_step.txt"):
                         ]
 
                         response = client.chat.completions.create(
-                            model="qwen-omni-turbo-latest",
+                            model="qwen-omni-turbo",
                             messages=messages,
                             modalities=["text"],
                             stream=True,
