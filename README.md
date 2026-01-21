@@ -51,6 +51,7 @@ Obtain your **Qwen-Omni-Turbo API key** from the [DashScope Console](https://das
 In every Python script (e.g., cot/audiofeature.py, noisy/selfask.py, etc.), locate the following line:
   ```python
   root_audio_dir = "/path/to/your/cough_audio_dataset"  # ← MUST UPDATE!Replace it with the absolute or relative path to your local cough audio folder.
+  ```
 
 ## 📊 Code and Data Availability
 
